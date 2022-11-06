@@ -44,5 +44,21 @@ public class Main {
             System.out.println(year + " год не является високосным");
         }
 
+        //Задание 4
+        System.out.println("Задание 4");
+        int deliveryDistance = 95;
+        if (deliveryDistance < 20) {
+            int deliveryPeriod = 1;
+            System.out.println("Потребуется дней: " + deliveryPeriod);
+        } else if (deliveryDistance >=20 && deliveryDistance < 60) {
+            int deliveryPeriod = 2;
+            System.out.println("Потребуется дней: " + deliveryPeriod);
+        } else if (deliveryDistance >= 60 && deliveryDistance <100) {
+            int deliveryPeriod = 3;
+            System.out.println("Потребуется дней: " + deliveryPeriod);
+        }
+        else {
+            System.out.println("Error");
+        }
     }
 }
